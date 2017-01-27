@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(120deg, #fff, #C9C5C2, rgba(0, 0, 0, 0.4));
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  body .container {
+    width: 1100px; }
+    body .container .card {
+      height: 600px;
+      background: #fff;
+      display: flex; }
+      body .container .card .left-content {
+        flex: 3; }
+      body .container .card .img-content {
+        flex: 1;
+        height: 600px;
+        width: 400px;
+        background: url("../img/bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 25% 40%; }
